@@ -38,3 +38,32 @@
 ## 📂 Project Structure
 
 ### Backend
+fresherlancer-backend/
+├── src/
+│ ├── main/java/com/fresherlancer
+│ ├── resources/
+│ └── application.properties
+├── pom.xml
+
+### Frontend
+fresherlancer-frontend/
+├── src/
+│ ├── app/
+│ ├── assets/
+│ └── index.html
+├── angular.json
+├── package.json
+
+🧪 Testing the API
+Use Postman or access the Swagger UI:
+http://localhost:8080/swagger-ui.html
+
+## 🧠 Purpose
+This project was developed as part of a 3-month Java Full Stack Development course at Symbiosis Institute. It helped reinforce skills in full-stack architecture, secure API design, relational databases, and user-centered UI development.
+
+## 🙌 Acknowledgments
+Symbiosis Institute – Java Full Stack Program
+PrimeNG for rich UI components
+Spring Boot and Angular communities for extensive documentation and support
+
+
