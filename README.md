@@ -45,8 +45,8 @@ http://localhost:8080/swagger-ui.html
 This project was developed as part of a 3-month Java Full Stack Development course at Symbiosis Institute. It helped reinforce skills in full-stack architecture, secure API design, relational databases, and user-centered UI development.
 
 ## 🙌 Acknowledgments
-Symbiosis Institute – Java Full Stack Program
-PrimeNG for rich UI components
-Spring Boot and Angular communities for extensive documentation and support
+- Symbiosis Institute – Java Full Stack Program
+- PrimeNG for rich UI components
+- Spring Boot and Angular communities for extensive documentation and support
 
 
