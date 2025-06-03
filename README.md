@@ -37,22 +37,44 @@
 
 ## 📂 Project Structure
 
-### Backend
-fresherlancer-backend/
-├── src/
-│ ├── main/java/com/fresherlancer
-│ ├── resources/
-│ └── application.properties
-├── pom.xml
+fresherlancer/
+├── fresherlancer-backend/                # Spring Boot Backend
+│   ├── src/
+│   │   ├── main/
+│   │   │   ├── java/com/fresherlancer/   # Java source code
+│   │   │   │   ├── controller/           # REST controllers
+│   │   │   │   ├── dto/                  # Data Transfer Objects
+│   │   │   │   ├── entity/               # JPA entities
+│   │   │   │   ├── repository/           # JPA repositories
+│   │   │   │   ├── service/              # Service layer
+│   │   │   │   └── security/             # JWT & Spring Security config
+│   │   │   └── resources/
+│   │   │       ├── application.properties
+│   │   │       └── schema.sql            # Optional DB schema
+│   ├── pom.xml                           # Maven config file
+│   ├── mvnw / mvnw.cmd                   # Maven wrapper
+│   └── HELP.md                           # Spring Boot starter help
 
-### Frontend
-fresherlancer-frontend/
-├── src/
-│ ├── app/
-│ ├── assets/
-│ └── index.html
-├── angular.json
-├── package.json
+├── fresherlancer-frontend/               # Angular Frontend
+│   ├── src/
+│   │   ├── app/
+│   │   │   ├── components/               # UI components
+│   │   │   ├── services/                 # API services
+│   │   │   ├── models/                   # Interfaces/Models
+│   │   │   ├── pages/                    # Page-level views
+│   │   │   └── app.module.ts             # App module config
+│   │   ├── assets/
+│   │   ├── environments/
+│   │   │   ├── environment.ts
+│   │   │   └── environment.prod.ts
+│   │   └── index.html
+│   ├── angular.json                      # Angular CLI config
+│   ├── package.json                      # Node package dependencies
+│   └── tsconfig.json                     # TypeScript config
+
+├── sql-dump.sql                          # MySQL schema and demo data
+├── README.md                             # Project documentation (this file)
+└── .gitignore
 
 🧪 Testing the API
 Use Postman or access the Swagger UI:
